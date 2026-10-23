@@ -1,0 +1,733 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin-top: 0;
+}
+
+body{
+    font-family: "inter", sans-serif;
+      background-color: #050505;
+      color: white;
+   
+}
+
+.container{
+    max-width: 1800px;
+    margin-inline: Auto;
+    padding-inline: 1rem;
+}
+
+.navbar{
+    justify-content: space-between;
+    display: flex;
+    gap: 20px;
+    padding:8px 16px ;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    font-weight: 500;
+}
+
+.nav-links:hover{
+    
+    cursor: pointer;
+}
+.nav-links > li:hover{
+    color: red;
+    text-decoration: underline;
+    
+}
+.logo img{
+    color: red;
+}
+
+.inp{
+    position: relative;
+    width: 80x;
+    padding: 2px 8px;
+    
+}
+.inp i {
+    position: absolute;
+    right: 5%;
+    bottom: 12%;
+    font-size: 0.8rem;
+    
+    
+    
+}
+.inp input{
+    background-color: transparent;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    
+}
+
+.icon i {
+    color: red;
+    margin-top: 2px;
+}
+
+.sign{
+    width: 100px;
+    height: 20px;
+    
+}
+.sign button {
+    background-color: transparent;
+    color: white;
+    gap: 15px;
+    border: none;
+    font-weight: 500px;
+    cursor: pointer;
+    
+
+}
+.sign button:hover {
+    background-color: red;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 2px;
+    padding-right: 2px;
+    
+}
+
+.The-beat{
+    margin-top: 100px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin-left: 30px;
+    
+    
+}
+.The-beat-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.The-beat-text > h1 > span{
+    color: red;
+}
+.imag{
+    align-items: center;
+    display: flex;
+
+}
+.imag img {
+    color: red;
+    border-radius: 20px;
+}
+.The-beat-text p {
+    font-size: 0,5rem;
+    color: #555;
+}
+
+.butn-group{
+    
+     position: relative;
+    display: flex;
+    gap: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 6px;
+    padding-right: 6px;
+    
+}
+.butt button{
+   width: 150px;
+   height: 40px;
+    background-color: transparent;
+    color: white;
+
+}
+.butt i {
+    position: absolute;
+   bottom: 6rem;
+   top: 0.9rem;
+   transform: translateY(6px);
+   padding-left: 15px;
+   
+    
+    
+}
+.butt button:hover{
+    background-color: red;
+}
+
+.likk{
+    position: relative;
+    margin-top:50px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-between;
+    
+}
+.likk i {
+    color: red;
+}
+
+
+.latest{
+    margin-top: 100px;
+}
+
+.latest h1 {
+    margin-left: 50px;
+}
+
+
+    
+
+
+.track{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding-left: 70px;
+    font-size: 0.7rem;
+    
+
+}
+
+.cart{
+
+    position: relative;
+}
+
+.cart i{
+    position: absolute;
+    right: 7%;
+    bottom: 0.9rem;
+    top: 0.5;
+    transform: translateY(-6px);
+    padding-right: 27px;
+}
+
+.cart-butn{
+    width: auto;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    padding: 8px 36px;
+    font-size: 0.5rem;
+}
+.cart-butn:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+.trusted{
+    margin-top: 200px;
+    font-display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.brands{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 100px;
+    margin-top: 30px;
+    background-color: red;
+    
+    height: 50px;
+    
+
+}
+
+ .brands i {
+    size: 5rem;
+ }
+
+.trusted p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #555;
+    text-decoration: line-through;
+}
+
+.home-remark{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    font-size: 0.8rem
+}
+
+.home-remark i {
+    justify-content: center;
+    display: flex;;
+}
+.remark{
+    display: flex;
+    gap: 30px;
+    color: #555;
+}
+
+.first{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 5rem;
+    margin-top: 30px;
+}    
+
+.Already{
+    font-size: 0.8rem;
+    font-weight: 500px;
+    
+}
+.Already span {
+    color: red;
+    gap: 10px;
+}
+
+.Already span:hover {
+    cursor: pointer;
+}
+
+.page{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    justify-content: center;
+    gap: 200px;
+    background-color: #050505;
+    
+    
+}
+
+.left{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+.left h1 {
+    font-weight: 600;
+    
+}
+.left h1 span {
+    color: red;
+
+}
+    
+
+.left p {
+    
+    color: #555;
+    font-size: 0.7rem;
+}
+
+.colla{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    width: 290px;
+    height: 290px;
+    position: relative;
+    margin-top: 40px;
+    /* padding: 4px 8px; */
+    font-size: 0.7rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+    
+}
+
+.colla h4 {
+    color: red;
+}
+
+.colla i {
+    position: absolute;
+    left: 4%;
+    
+    
+}
+
+
+.right{
+    display: flex;
+    
+    text-align: center;
+    
+}
+
+.create h1 span {
+    color: red;
+}
+.create p {
+    font-size: 0.7rem;
+    color: #555;
+}
+
+
+
+
+   
+
+
+.typ{
+   margin-top: 15px; 
+}
+
+.prod{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    margin-top: 15px;
+}
+
+.buttt{
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    color: white;
+}
+.prod :hover {
+    border: 1px solid red;
+}
+
+.prod h4:hover {
+    border: none;
+}
+.prod p:hover {
+    border: none;
+}
+.prod i:hover {
+    border: none;
+}
+.buttt i {
+    color: red;
+}
+
+.inn{
+    
+    position: relative;
+    margin-top: 50px;
+    
+    
+}
+
+.inn i {
+    position: absolute;
+    padding-left: 10px;
+    font-size: 0.7rem;
+    
+    
+    transform: translateY(5px);
+    color: red;
+}
+.inn input {
+    align-items: center;
+    justify-content: center;
+   width: 470px;
+   height: 30px;
+   border-radius: 5px;
+   border: none;
+   background-color: black;
+   color: white;
+   padding-left: 39px;
+   
+}
+
+.inn input::placeholder {
+    font-size: 0.7rem;
+    padding-left: 30px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.inn p {
+    margin-top: 20px;
+    display: flex;
+    padding-left: 5px;
+    gap: 5px;
+}
+
+.inn span {
+    color: red;
+}
+
+.Label{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.acc{
+    width: 470px;
+    height: 30px;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    font-size: 0.7rem;
+
+}
+
+.acc:hover {
+    border: 1px solid red;
+}
+
+.rem{
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background-color: black;
+    height: 50px;
+
+}
+
+.rem p {
+    align-items: center;
+    font-size: 0.7rem;
+    color: #555;
+}
+
+.iconi{
+    gap: 29px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.all{
+    background-color: #10111A
+    height: 400px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: rgba(111, 101, 100, 0.075) 0px 7px 29px 0px;
+}
+
+.all h1{
+    font-size: 24px;
+    margin: 0px;
+    color: red;
+}
+.all p {
+    font-size: 0.5rem;
+    cursor: pointer;
+    
+}
+
+.Log{
+    
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    gap: 20px;
+    padding-top: 20px;
+    
+}
+
+    
+
+
+.inpu{
+    align-items: center;
+}
+.inpu input {
+    width: 200px;
+    height: 30px;
+    border: 1px solid red;
+    background-color: transparent;
+    border-radius: 5px;
+    
+}
+
+ .para{
+    display: flex;
+    gap: 40px;
+    
+ }
+ .para p {
+    font-size: 0.7rem;
+ }
+
+.inpu input::placeholder {
+    font-size: 0.7rem;
+    padding-left: 15px;
+}
+
+
+
+.hed{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 30px;
+    font-size: 0.9;
+    margin-top: 30px;
+}
+.hed p {
+    color: #555;
+}
+.hed span {
+    color: red;
+    text-decoration: none;
+}
+.hed p:hover {
+    cursor: pointer;
+}
+
+.loggg{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.loggg button {
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+.loggg button:hover{
+    border: 1px solid white;
+}
+
+.or{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+    margin-top: 50px;
+}
+
+.log-icon{
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+    
+}
+.log-icon i {
+    font-size: 0.8rem;
+    color: red;
+    cursor: pointer;
+}
+    
+
+.or p {
+    font-size: 0.6rem;
+    color: #555;
+}
+
+
+.sidebar{
+    margin-left: 30px;
+}
+
+.dashboards{
+    list-style: none;
+}
+
+
+
+.genre{
+    width:90%;
+    margin:50px auto;
+}
+
+.genre h3{
+    font-size:28px;
+    margin-bottom:20px;
+}
+
+/* Slider */
+.slider{
+    display:flex;
+    gap:20px;
+    overflow-x:auto;
+    scroll-snap-type:x mandatory;
+    scroll-behavior:smooth;
+    padding-bottom:10px;
+}
+
+/* Hide scrollbar */
+.slider::-webkit-scrollbar{
+    display:none;
+}
+
+.slider{
+    -ms-overflow-style:none;
+    scrollbar-width:none;
+    gap: 20px;
+}
+
+/* Cards */
+.card{
+    min-width:250px;
+    flex:0 0 auto;
+    scroll-snap-align:start;
+    background:#fff;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+    transition:.3s;
+    cursor:pointer;
+
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+}
+
+.card h5{
+    font-size:20px; 
+    margin:15px 15px 5px;
+}
+
+.card p{
+    margin:0 15px 15px;
+    color:#777;
+    font-size:15px;
+}
+
+
+
+
+
+
+
+
